@@ -5,7 +5,7 @@ use DateInterval;
 use DatePeriod;
 use DateTime;
 
-class WorkingHoursCalculator
+class WorkingHoursCalculator implements WorkingHoursCalculatorInterface
 {
     private array $result = [];
     public function calculateHoursPerWeek(
